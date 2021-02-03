@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewData["Title"] = "_Layout";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="~/twitter-bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    @RenderBody()
+    @RenderSection("scripts", false)
+</body>
+</html>
+
+<script src="~/jquery/jquery.js"></script>
